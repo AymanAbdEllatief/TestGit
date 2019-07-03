@@ -259,13 +259,21 @@
 
 // }while(x<5);
 
-const person = {
-  name : 'Ayman',
-  age: 33
-};
-for (let t in person)
-console.log(t , person[t]);
+// const person = {
+//   name : 'Ayman',
+//   age: 33
+// };
+// for (let t in person)
+// console.log(t , person[t]);
 
-const colors =['red','green','blue'];
-for (let t in colors)
-console.log(t , colors[t]);
+// const colors =['red','green','blue'];
+// for (let t in colors)
+// console.log(t , colors[t]);
+
+function max(num1,num2){
+ return(num1>num2)?num1:num2; 
+
+}
+
+let number =max(11,10);
+console.log(number);
