@@ -261,8 +261,11 @@
 
 const person = {
   name : 'Ayman',
-  age= 33
+  age: 33
 };
+for (let t in person)
+console.log(t , person[t]);
 
-for (let key in person)
-console.log(key);
+const colors =['red','green','blue'];
+for (let t in colors)
+console.log(t , colors[t]);
